@@ -1,0 +1,258 @@
+*{
+    margin: 0%;
+    font-family: Arial;
+    border: border-box;
+}
+#navbar{
+    height: 55px;
+    background-color: #0f1111;
+    color: white;
+    display: flex;
+    align-items: center; 
+    justify-content: space-evenly;
+}
+#nav-logo img{
+    margin-right: 10px;
+    mix-blend-mode: color-dodge;
+}
+.border{
+    border: 1.5px solid transparent;
+}
+.border:hover{
+    
+    border: 1.5px solid white;
+    border-radius: 5%;
+}
+
+/* box2 */
+.nav-location{
+    display: flex;
+    margin-left: 7px;
+}
+.address-first{
+    font-size: 0.75rem;
+    color: #cccccc;
+    margin-left: 20px;
+}
+.address-second{
+    word-spacing: 50px;
+    margin-left: 3px;
+}
+
+/* box 3 */
+.nav-search:hover{
+    border: 2px solid orange;
+    border-radius: 6px;
+}
+.nav-search{
+    display: flex;
+    margin-left: 10px;
+    width: 620px;
+    height: 40px;
+    border-radius: 4px;
+}
+.search-select{
+    width: 50px;
+    font-size: 11px;
+    text-align: center;
+    background-color: #efe6e6;
+    border: none;
+    border-top-left-radius: 4px;
+    border-bottom-left-radius: 4px;
+}
+.search-input{
+    width: 100%;
+    font-size: 1rem;
+    border: none;
+}
+.search-icon{
+    width: 45px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(235, 153, 10);
+    border-top-right-radius: 4px;
+    border-bottom-right-radius: 4px;
+    color: #0f1111;
+}
+
+/* box4 */
+.select-lang{
+    background-color: #0f1111; 
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+/* box5 */
+.nav-signin{
+    color: #ffffff;
+}
+.sign{
+    font-size: 0.7rem;
+}
+.account{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+.acc{
+    background-color: #0f1111; 
+    color: white;
+    border: none;
+    font-size: 17px;
+}
+
+/* box7 */
+.nav-cart i{
+    font-size: 30px;
+}
+.nav-cart{
+    font-size: 0.85rem;
+    font-weight: 700;
+}
+
+/* panel */
+.panel{
+    height: 40px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+.panel-opt p{
+    display: inline;
+    margin-left: 15px;
+}
+.panel-opt{
+    width: 75%;
+}
+.panel-deals{
+   font-weight: 700;
+}
+
+
+/* hero-section */
+.hero-section{
+    background-image: url(/photos/hero.jpg);
+    background-size: cover;
+    height: 400px;
+    display: flex;
+    align-items: flex-end;
+    justify-content: center;    
+}
+.hero-msg{
+    height: 40px;
+    width: 98%;
+    background-color: white;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-size: 0.85rem;
+    margin-bottom: 10px;
+}
+.hero-msg a{
+    color: #007185;
+}
+
+/* shop-section */
+
+.shop-section{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-evenly;
+    background-color: #e2e7e6;    
+}
+.box{
+    height: 380px;
+    width: 23%;
+    border: 1px solid rgb(255, 255, 255); 
+    background-color: white;
+    margin-top: 15px;
+}
+.shop-section .img{
+    height: 230px;
+    background-size: cover;
+    margin: 20px 0px 20px 0px;
+}
+.box-content{
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+.box-content p a{
+    color: #007185;
+    text-decoration: none;
+}
+.box-content p a:hover{
+    color: rgb(209, 76, 76);
+    text-decoration: underline;
+}
+
+/* footer */
+/* panel1 */
+footer{
+    background-color: #232F3E;
+}
+.panel1{
+    height: 50px;
+    background-color: #37475a;
+    color: white;
+    font-size: 0.85rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel1:hover{
+    background-color: #5f6c7b;
+}
+
+/* panel2 */
+.panel2{
+    height: 400px;
+    background-color: #222f3d;
+    color: white;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: flex-start;
+    
+}
+ul a{
+    display: block;
+    color: #dddddd;
+    text-decoration: none;
+    margin-top: 10px;
+    font-size: 0.85rem;
+}
+ul{
+    margin-top: 55px;
+}
+ul a:hover{
+    text-decoration: underline;
+}
+/* panel3 */
+.panel3{
+    height: 70px;
+    background-color: #222f3d;
+    border-top: 0.1px solid whitesmoke;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+.panel3 img{
+    mix-blend-mode: color-dodge;
+}
+.panel4{
+    height: 60px;
+    background-color: #0f1111;
+    color: white;
+    font-size: 0.7rem;
+    text-align: center;
+}
+.page{
+    padding-top: 15px;
+}
+.copy{
+    padding-top: 5px;
+}
