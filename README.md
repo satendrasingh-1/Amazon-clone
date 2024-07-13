@@ -13,7 +13,7 @@ CSS
 Getting Started
 To view the project locally:
 
-Clone the repository: git clone https://github.com/your-username/amazon-clone.git
+Clone the repository
 
 Open the index.html file in your web browser:
 
